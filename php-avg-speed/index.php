@@ -7,22 +7,22 @@ function calculate_speed($distance, $time) {
       $distanceArray[0] *= 1000;
     }
     
-    if($timeArray[1] === "m") {
+    if($timeArray[1] === "min") {
       $timeArray[0] *= 60;
     } elseif($timeArray[1] === "h") {
       $timeArray[0] *= 3600;
     }
-    var_dump($timeArray);
-    var_dump($distanceArray);
-    //$result = intval($distanceArray[0]) / intval($timeArray[0]) * 2.23694;
+
+
+    $result = intval($distanceArray[0]) / intval($timeArray[0]) * 2.23694;
     
-    //return $result . "mph";
+    return round($result) . "mph";
 }
 
 function separator($var) {
     
-    $array = explode(" ", $var);
-    var_dump($array);
+    $array = str_split($var);
+
     $num = [];
     $letters = [];
     
@@ -40,7 +40,7 @@ function separator($var) {
     return [$number, $measure];
 }
 
-echo calculate_speed("22km", "5h");
+echo calculate_speed("100m", "10s");
   
 /*  Per la distanza:
     esplodo la stringa e trasformo in array
@@ -60,4 +60,3 @@ echo calculate_speed("22km", "5h");
     infine distanza/tempo * 2.23694
     ritorno risultato + mph
 */
-    
