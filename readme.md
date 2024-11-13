@@ -1,4 +1,6 @@
-# PHP-ROCK-PAPER-SCISSORS
+# PHP TRAINING EXCERCISE FROM CODEWARS
+
+## PHP-ROCK-PAPER-SCISSORS
 
 ## In this kata, your task is to implement an extended version of the famous rock-paper-scissors game. The rules are as follows:
 
@@ -13,8 +15,8 @@ Paper disproves Spock
 Spock vaporizes Rock
 Rock crushes Scissors
 
-## Task:
+* Task:
 Given two values from the above game, return the Player result as "Player 1 Won!", "Player 2 Won!", or "Draw!".
 
-## Inputs
+* Inputs
 Values will be given as one of "rock", "paper", "scissors", "lizard", "spock".
