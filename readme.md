@@ -1,6 +1,6 @@
 # PHP TRAINING EXCERCISE FROM CODEWARS
 
-1. ## PHP-ROCK-PAPER-SCISSORS
+1. ## [PHP-ROCK-PAPER-SCISSORS](php-rock-paper/index.php)
 
 **In this kata, your task is to implement an extended version of the famous rock-paper-scissors game. The rules are as follows:**
 
@@ -21,7 +21,7 @@ Given two values from the above game, return the Player result as "Player 1 Won!
 **Inputs**
 Values will be given as one of "rock", "paper", "scissors", "lizard", "spock".
 
-2. [## PHP-AVG-SPEED](php-avg-speed)
+2. [## PHP-AVG-SPEED](php-avg-speed/index.php)
 
 *** Speed is a crucial measure of success for any aspiring warrior, so let's write a function to calculate it. ***
 
@@ -31,7 +31,7 @@ For the purposes of this kata one metre per second is defined as 2.23694 miles p
 
 So for example given the input values of distance & time "3km" and "5min" we should return a speed value of "22mph".
 
-3. ## PHP-CAT-JUMP
+3. ## [PHP-CAT-JUMP](php-cat-jump/index.php)
 
 An infinite number of shelves are arranged one above the other in a staggered fashion.
 The cat can jump either one or three shelves at a time: from shelf i to shelf i+1 or i+3 (the cat cannot climb on the shelf directly above its head)
