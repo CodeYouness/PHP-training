@@ -45,3 +45,17 @@ Find the minimum number of jumps to go from start to finish
 **Example**
 Start 1, finish 5, then answer is 2 (1 => 4 => 5 or 1 => 2 => 5)
 
+4. ## [PHP-LETTER-VALUE](php-letter-value/index.php)
+
+If　a = 1, b = 2, c = 3 ... z = 26
+
+Then l + o + v + e = 54
+
+and f + r + i + e + n + d + s + h + i + p = 108
+
+**Task**
+Your task is to write a function which calculates the value of a word based off the sum of the alphabet positions of its characters.
+
+**Input**
+The input will always be made of only lowercase letters and will never be empty.
+
