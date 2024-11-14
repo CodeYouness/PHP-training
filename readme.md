@@ -21,7 +21,7 @@ Given two values from the above game, return the Player result as "Player 1 Won!
 **Inputs**
 Values will be given as one of "rock", "paper", "scissors", "lizard", "spock".
 
-2. [## PHP-AVG-SPEED](php-avg-speed/index.php)
+2. ## [PHP-AVG-SPEED](php-avg-speed/index.php)
 
 *** Speed is a crucial measure of success for any aspiring warrior, so let's write a function to calculate it. ***
 
