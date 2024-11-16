@@ -60,13 +60,23 @@ Your task is to write a function which calculates the value of a word based off 
 The input will always be made of only lowercase letters and will never be empty.
 
 5. ## [PHP-TO-CAMELCASE](php-to-camelCase/index.php)
+    - Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
 
-Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
+    **Examples**
+    "the-stealth-warrior" gets converted to "theStealthWarrior"
 
-**Examples**
-"the-stealth-warrior" gets converted to "theStealthWarrior"
+    "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
 
-"The_Stealth_Warrior" gets converted to "TheStealthWarrior"
+    "The_Stealth-Warrior" gets converted to "TheStealthWarrior"
 
-"The_Stealth-Warrior" gets converted to "TheStealthWarrior"
+    - Modify the kebabize function so that it converts a camel case string into a kebab case.
+
+    **Examples**
+    "camelsHaveThreeHumps"  -->  "camels-have-three-humps"
+    "camelsHave3Humps"  -->  "camels-have-humps"
+    "CAMEL"  -->  "c-a-m-e-l"
+    
+    **Notes:**
+    the returned string should only contain lowercase letters
+
 
