@@ -9,11 +9,11 @@ function kebabize($string) {
             $kebabize .= "-" . strtolower($letter);
         }
     }
-  
+
     if (str_starts_with($kebabize, "-")){
         $kebabize = ltrim($kebabize, "-");
     }
-  
+
     return $kebabize;
 }
 
